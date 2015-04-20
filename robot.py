@@ -7,7 +7,7 @@ from zccx.handle import Handle
 
 robot = werobot.WeRoBot(token="kevince")
 msg1 = u"欢迎使用南邮晨跑查询微信公众号\n"
-msg2 = u"Developed by Kevince & Powered by https://github.com/prikevs/nupt-zccx"
+msg2 = u"Developed by Kevince & Powered by https://github.com/prikevs/nupt-zccx\n"
 msg3 = u"首先请进行绑定操作：\n输入 绑定+姓名+学号 例如\n绑定 田二狗 B13040216"
 HELLO_MSG = msg1 + msg2 + msg3
 
