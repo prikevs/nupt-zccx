@@ -10,7 +10,6 @@ class DBHandler:
     sql2 = "UPDATE users SET stu_id=%s, name=%s WHERE token=%s"
     sql3 = "INSERT INTO users (stu_id, name, token) VALUES (%s, %s, %s)"
     sql4 = "UPDATE users SET time=%s WHERE token=%s"
-    pattern = re.compile(r"""[",',%,*,.,!,=,&,(,),/,\\,]""")
 
     def __init__(self, wetoken):
         self.token = wetoken
